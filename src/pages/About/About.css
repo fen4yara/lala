@@ -1,0 +1,15 @@
+.about__wrapper1{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.wrapper__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.te1{
+    font-weight: 400;
+}

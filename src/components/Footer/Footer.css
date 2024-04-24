@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    gap: 48px;
+}
+
+.footer__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.lal{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 170px;
+}
+
+.footer__nav{
+    justify-content: center;
+    gap: 60px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-weight: 300;
+    font-size: 15px;
+}
