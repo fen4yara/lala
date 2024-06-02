@@ -1,0 +1,22 @@
+.qwe{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.aaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ww{
+    margin-top: 10px;
+    padding: 2px;
+    border: 1px black solid;
+}
+
+.qq{
+    padding: 2px;
+    border: 1px black solid;
+}

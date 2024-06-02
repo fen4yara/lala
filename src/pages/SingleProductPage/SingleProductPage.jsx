@@ -1,11 +1,11 @@
-import { store } from '../../data/store';
+import { storee } from '../../data/storee';
 import './SingleProductPage.css';
 import { useParams } from 'react-router-dom';
 
 export function SingleProductPage() {
     const { id } = useParams();
 
-    const pizza = store.find(pizza => pizza.id == id);
+    const pizza = storee.find(pizza => pizza.id == id);
 
     return (
         <section>

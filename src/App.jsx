@@ -6,6 +6,7 @@ import { Home } from './pages/Home/Home';
 import { About } from './pages/About/About';
 import { Routes, Route } from 'react-router-dom';
 import { SingleProductPage } from './pages/SingleProductPage/SingleProductPage';
+import { Login } from './pages/Login/Login';
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
                         <Route path='/catalog' element={<Catalog />} />
                         <Route path='/catalog/:id' element={<SingleProductPage />} />
                         <Route path='/about' element={<About />} />
+                        <Route path='/login' element={<Login/>}/>
                     </Routes>
                 </div>
             </main>

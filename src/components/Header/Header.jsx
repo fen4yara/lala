@@ -11,6 +11,7 @@ export function Header() {
                         <NavLink to="/" className="nav__link">Главная</NavLink>
                         <NavLink to="/catalog" className="nav__link">Каталог</NavLink>
                         <NavLink to="/about" className="nav__link">О нас</NavLink>
+                        <NavLink to="/login" className="nav__link">Логин</NavLink>
                     </nav>
                     <h3 className='ao'>+7(999)999-99-99</h3>
                 </div>

@@ -1,0 +1,34 @@
+article{
+    margin-top: 40px;
+    width: 197px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1152px;
+}
+
+.main-title{
+    margin-top: 20px;
+}
+
+.asdad{
+    font-size: 14px;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 600;
+}
+.wra{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
